@@ -63,6 +63,9 @@ BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
 TARGET_KERNEL_CONFIG := cm_m8_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
 
+# Disable Modules
+TARGET_KERNEL_NO_MODULES := true
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
